@@ -1,0 +1,27 @@
+{
+  "name": "@hayatedonn/safe-html",
+  "version": "0.1.0",
+  "description": "文脈（HTML/属性/URL）を理解して自動エスケープする、依存ゼロのタグ付きテンプレート。フレームワーク不要でXSSを防ぐ。",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": ["index.js", "index.d.ts", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["html", "escape", "xss", "template-literal", "tagged-template", "sanitize", "security", "contextual", "zero-dependency"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaYaTedonn/safe-html.git"
+  },
+  "author": "Hayate Suzuki",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "sideEffects": false
+}
