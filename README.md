@@ -13,12 +13,12 @@ A tiny, **zero-dependency** tagged-template that **auto-escapes by context** (HT
 
 ## Install
 ```bash
-npm install @hayatedonn/safe-html
+npm install @suzukihayate/safe-html
 ```
 
 ## Usage
 ```js
-import { html, raw } from '@hayatedonn/safe-html';
+import { html, raw } from '@suzukihayate/safe-html';
 
 html`<p>${'<script>alert(1)</script>'}</p>`.toString();
 // "<p>&lt;script&gt;alert(1)&lt;/script&gt;</p>"

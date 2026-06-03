@@ -1,5 +1,5 @@
 {
-  "name": "@hayatedonn/safe-html",
+  "name": "@suzukihayate/safe-html",
   "version": "0.1.0",
   "description": "文脈（HTML/属性/URL）を理解して自動エスケープする、依存ゼロのタグ付きテンプレート。フレームワーク不要でXSSを防ぐ。",
   "type": "module",
